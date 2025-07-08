@@ -1,0 +1,195 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Elizabeth
+    last_name: Reynolds
+    
+    # Define yourself in 4-5 words
+    motto: I love being a creative.
+    
+    # Focus
+    focus: Changing the world.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Creative professional with an associate degree in Graphic Design and a foundation in UX/UI design. Founder of Brand Bloom Studios, a visual design studio supporting women-led wellness brands through clean, intentional branding and digital tools. The studio’s social presence, Print & Bloom, showcases modern printable content and user-focused design systems. 
+
+
+      Currently transitioning into full-stack development—building on UX/UI experience to create web applications that are visually polished, intuitive, and performance-driven. Actively working toward full certification, with a strong interest in design-integrated development practices.
+
+      
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/213670907?u=1bdff2a0ce192cd6edc7d38f1189132f678a4176&v=4
+
+    # Contact Information
+    email: elysa@brandbloomstudios.com.com #optional
+    phone: 657 749 7653 #optional
+    website: www.brandbloomstudios.com #optional
+    linkedin: elizabethdreynolds #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Miryre
+    
+    twitter:  #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Native
+
+  
+
+    # Interests or hobbies
+    interests:
+      - item: Graphic Design
+
+      - item: Web Development
+
+      - item: Making my own lip balms
+
+# Your previous education
+education:
+    - degree: Associate of Art in Graphic Design
+      university: Bryan University
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2023-2025
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+    # - degree: BSc in Applied Mathematics
+    #   university: Bristol University
+    #   # optional
+    #   university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    #   time: 2007 - 2011
+    #   details: |
+    #     Describe your study here lorem ipsum dolor sit amet, consectetuer
+    #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+    #     sociis natoque penatibus et magnis dis parturient montes, nascetur
+    #     ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+    #     pretium quis, sem.
+
+    #       - Bullet point
+    #       - Bullet point
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Founder
+      time: 2024 - Present
+      company: Brand Bloom Studios, Dallas
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Founded and managed a full-service design studio delivering brand identity, print and digital
+        content, and visual marketing for clients across healthcare, nonprofit, and creative sectors.
+        Oversee design, production, and media creation to ensure consistent brand messaging and
+        quality across all platforms.
+
+         
+
+    - role: Freelance Content Creator, Remote
+      time: 2022- Present
+      company: Besha Inc., Oakland
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        
+        Successfully collaborated with executive leadership to develop high-impact marketing materials, increasing
+        brand engagement. As a team, we managed and executed comprehensive social media
+        strategies that led to measurable improvements in online visibility, leveraging both creative and
+        analytical skills to consistently deliver high-quality, audience-focused content on tight deadlines.
+
+          
+
+    # - role: UI Developer
+    #   time: 2012 - 2014
+    #   company: Amazon, London
+    #   # optional
+    #   company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+    #   details: |
+    #     Describe your role here lorem ipsum dolor sit amet, consectetuer
+    #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+    #     Cum sociis natoque penatibus et magnis dis parturient montes,
+    #     nascetur ridiculus mus. Donec quam felis, ultricies nec,
+    #     pellentesque eu, pretium quis, sem.
+
+    #       - Bullet point
+    #       - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Adobe Creative Suite
+        level: 885%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      # - name: Angular
+      #   level: 98%
+
+      - name: HTML5 & CSS
+        level: 75%
+
+      - name: Figma
+        level: 80%
+
+      # - name: Sketch & Photoshop
+      #   level: 60%
